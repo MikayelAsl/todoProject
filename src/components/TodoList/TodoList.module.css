@@ -1,0 +1,50 @@
+.row2 {
+    display: flex;
+    margin-bottom: 5px;
+}
+.row3 {
+    display: flex;
+}
+.row1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-bottom: 70px;
+}
+.input {
+    color: red;
+    border-color: yellow !important;
+}
+.list {
+    margin-top: 50px;
+    background-color: grey;
+}
+.empty {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row1_empty {
+    opacity: .7;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.row2_empty {
+    opacity: .9;
+    font-size: 30px;
+}
+.add {
+    margin-left: 35px;
+}
+
+@media screen and (max-width: 800px) {
+    .row3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .add {
+        margin-left: 0;
+    }
+}
